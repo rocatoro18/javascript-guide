@@ -21,6 +21,7 @@ window.addEventListener('load',()=>{
     // Click
     boton.addEventListener('click',function(){
         cambiarColor();
+        this.style.border = "5px solid black";
     });
     
     // Mouse over
