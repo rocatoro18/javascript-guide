@@ -45,4 +45,22 @@ $(document).ready(function(){
         // $(".caja-efectos").fadeToggle();
     });
 
+    // Tooltip
+
+    $(document).tooltip();
+
+    // Dialog
+
+    $("#lanzar-popup").click(function(){
+        $("#popup").dialog();
+    });
+
+    // Datepicker
+
+    $("#calendario").datepicker();
+
+    // Tabs
+
+    $("#pestanas").tabs();
+    
 });
